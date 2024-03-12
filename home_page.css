@@ -1,37 +1,54 @@
 .topBar{
   position: sticky;
-  width: 99%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  background-color: #74C0FC;
+  margin-left: -10px;
+  margin-top: -10px;
+  padding-right: 18px;
 }
 .leftTopbar  a{
   font-size: 40px;
+  margin-left: 10px;
   
+}
+.profile{
+  color: black;
+}
+
+body{
+  background:url(home_page_background.svg);
+  background-size: cover;
+  color: black;
 }
 .rightTopbar {
   position: relative;
   display: flex;
   text-align: center;
   padding-top: 5px;
-  padding-right: 50px;
+  padding-right: 35px;
   justify-content: center;
+  color: black;
 }
 
 .Topdropdown-content {
   display: none;
   position: absolute;
-  background-color: #000000;
+  background-color: #00498D;
   border-radius: 12%;
-  top:66px;
+  top: 50px;
   width: 140px;
   padding: 10px;
   font-size: large;
 }
 .Topdropdown-content > a{
   padding: 7px;
+  text-decoration: none;
+
 }
 .Topdropdown-content > a:hover{
-  background-color: #e61717;
+  background-color: #6bc6dd;
   border-radius: 12%;
 }
 .Topdropdown-content a {
@@ -40,14 +57,18 @@
 
 .rightTopbar:hover .Topdropdown-content {
   display: block;
+  color: black;
 }
-.leftTopBar{
+.leftTopbar{
   display:inline;
   float: left;
-  width: 50%;
+  width: 100%;
+  color: black;
+
 }
 .home_link{
   text-decoration: none;
+  color: black;
 }
 .TopDropbtn{
   border-radius: 90%;
@@ -57,20 +78,18 @@
 }
 /*---------------------------------------------------------------------------------------------------------*/
 .sidebar a:hover {
-  color: #e61717;
+  color: #6bc6dd;
 }
 
 .sidebar {
   margin-top: 50px;
   height: 100%;
-  width: 45px;
   position: fixed;
   top: 0;
   left: 0;
-  background-color:transparent;
+  background-color:#3d79bd;
   overflow-x: hidden;
   white-space: nowrap;
-  transition: width 0.1s;
 }
 .side_bar_menu{
   padding-top: 40px;
@@ -87,6 +106,8 @@
   font-size: 200%;
   vertical-align: 18%;
   text-decoration: none;
+  display: none;
+  padding: 10px;
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
@@ -102,6 +123,7 @@
   margin: 15px;
   border: #000000 solid;
   border-radius: 15px;
+  background-color: aqua;
 }
 
 .class_link{
@@ -119,4 +141,9 @@
   margin-top:4px;
   margin-left: 50px;
   font-size: 20px;
+}
+a:visited{
+  color: #000000;
+  text-decoration: none;
+
 }
