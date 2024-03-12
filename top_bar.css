@@ -67,7 +67,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #000000;
+  background-color:transparent;
   overflow-x: hidden;
   white-space: nowrap;
   transition: width 0.1s;
