@@ -1,0 +1,122 @@
+.topBar{
+  position: sticky;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+}
+.leftTopbar  a{
+  font-size: 40px;
+  
+}
+.rightTopbar {
+  position: relative;
+  display: flex;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+.Topdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 12%;
+  top:66px;
+  width: 140px;
+  padding: 10px;
+  font-size: large;
+}
+.Topdropdown-content > a{
+  padding: 7px;
+}
+.Topdropdown-content > a:hover{
+  background-color: #e61717;
+  border-radius: 12%;
+}
+.Topdropdown-content a {
+  display: block;
+}
+
+.rightTopbar:hover .Topdropdown-content {
+  display: block;
+}
+.leftTopBar{
+  display:inline;
+  float: left;
+  width: 50%;
+}
+.home_link{
+  text-decoration: none;
+}
+.TopDropbtn{
+  border-radius: 90%;
+  border: none;
+  font-size: 40px;
+  color: #74C0FC;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+.sidebar a:hover {
+  color: #e61717;
+}
+
+.sidebar {
+  margin-top: 50px;
+  height: 100%;
+  width: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  white-space: nowrap;
+  transition: width 0.1s;
+}
+.side_bar_menu{
+  padding-top: 40px;
+}
+.side_bar_link{
+  text-decoration: none;
+}
+.sidenav_icons{
+  margin: 4px;
+  margin-right: 8px;
+  font-size: 300%;
+}
+.icon-text{
+  font-size: 200%;
+  vertical-align: 18%;
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+.classes{
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 40px;
+  width: auto;
+  height: 150px;
+}
+
+.class{
+  margin: 15px;
+  border: #000000 solid;
+  border-radius: 15px;
+}
+
+.class_link{
+  text-decoration: none;
+}
+.proff{
+  margin: 4px 10px;
+}
+.subject_code{
+  margin-top: 6px;
+  margin-left: 6px;
+  font-size:35px;
+}
+.subject_detail{
+  margin-top:4px;
+  margin-left: 50px;
+  font-size: 20px;
+}
